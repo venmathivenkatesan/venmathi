@@ -1,5 +1,5 @@
 r,l=map(int,input().split())
 v,m=map(int,input().split())
-z=jkp(r-v)
-g=jkp(l-m)
+z=abs(r-v)
+g=abs(l-m)
 print(z,g)
