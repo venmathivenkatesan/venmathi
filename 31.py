@@ -1,3 +1,3 @@
-v=input("")
-l=v.replace(' ',' ')
-print(len(l))
+t=input("")
+e=t.replace(' ',' ')
+print(len(e))
