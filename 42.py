@@ -1,5 +1,5 @@
-v,z=map(str,input().split())
-if(len(v)>len(z)):
-  print(v)
+pl,nm=map(str,input().split())
+if(len(pl)>len(nm)):
+  print(pl)
 else:
-  print(z)
+  print(nm)
