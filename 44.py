@@ -1,5 +1,5 @@
-v22=int(input())
-if(v22>1 and v22<10):
+ven=int(input())
+if(ven>1 and ven<10):
   print("yes")
 else:
   print("no")
