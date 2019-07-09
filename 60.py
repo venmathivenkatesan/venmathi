@@ -1,5 +1,6 @@
-ven1=int(input())
-asd1=0
-for g in range(1,ven1+1):
-asd1=asd1+g
-print(asd1)
+ven = int(input())  
+asd = 0  
+while(ven > 0):  
+       asd += ven  
+       ven -= 1  
+print(asd)  
