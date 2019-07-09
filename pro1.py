@@ -1,14 +1,12 @@
-g = int(input())
-m = []
-for d in range(g):
-	       m.append(input())
-b = p[0]
-m.remove(b)
-o = len(b)
-for d in m:
-	       while o > 0:
-	              	if b in d:
-	                     		break
-	              	o-=1
-	              	b = b[:o]
-print(b)
+q=int(input())
+w=[]
+for h in range(0,q):
+ pan=input()
+ w.append(pan)
+thissss=[]
+for h in zip(*w):
+ if(h.count(h[0])==len(h)):
+  ven.append(h[0])
+ else:
+  break
+print(''.join(ven))
