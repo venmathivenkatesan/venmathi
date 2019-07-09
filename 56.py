@@ -1,7 +1,7 @@
-vm=input()
-for r in range(0,len(vm)):
+kl=input()
+for p in range(0,len(kl)):
     
-    if (vm[r].isalpha() and vm[r].isnumeric()):
+    if (kl[p].isalpha() and kl[p].isnumeric()):
         print("No")
 else:
         print("Yes")
