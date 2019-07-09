@@ -7,5 +7,5 @@ while c<len(v):
   gh+=(ord(m[c])-ord(v[c]))
   c+=1
 for c in range(c,len(m)):
-  gh+=ord(m[c])-ord('b')+1
+  gh+=ord(m[c])-ord('a')+1
 print(gh)
