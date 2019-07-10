@@ -1,15 +1,6 @@
-#include <iostream>
-using namespace std;
-
-int main() {
- int f,g,h;
- cin>>f>>g;
- h=f+g;
- if(h%2==0){
- 	cout<<"even";
- }
- else{
- 	cout<<"odd";
- }
- 
-}
+v,m=map(int,input().split())
+g=v-m
+if(g%2==0):
+  print("even")
+else:
+  print("odd")  
