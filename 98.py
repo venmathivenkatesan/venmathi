@@ -1,5 +1,6 @@
-ab=int(input())
-ven=list(map(int,input().split()))
-for h in range(len(ven)-1):
-   if(nums[h]>ven[h+1]):
-      print(h)
+asd=int(input())
+asd2=list(map(int,input().split()))
+for q in range(len(asd2)-1):
+     if(asd2[p]>asd2[q+1]):
+           print(q)
+           break
