@@ -5,7 +5,7 @@ y=vi[1]
 count=0
 k=0
 while(k<len(ven) and count<2):
-    if(san[k]!=y[k]):
+    if(ven[k]!=y[k]):
         count+=1
     k+=1
 if(count==1 or count==0):
