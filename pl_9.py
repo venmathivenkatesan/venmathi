@@ -1,11 +1,9 @@
-#a    
-v,k=list(map(int,input().split()))
-vk=0
-for j in range(v,k+1):
-    if j>1:
-        for g in range(2,g):
-            if(g%x==0):
-                break
-        else:
-            vk+=1
-print(vk)
+v1,v2=map(int,input().split())
+v3=[]
+for k in range(v1,v2+1):
+    for p in range(2,k):
+        if(k%p==0):
+            break
+    else:
+        v3.append(k)
+print(len(v3))
