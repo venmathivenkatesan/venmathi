@@ -1,4 +1,4 @@
-def sub(m): 
+def subb(m): 
     ven = len(m) 
     subb = [1]*ven
     for i in range (1 , ven): 
