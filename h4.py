@@ -1,12 +1,12 @@
 V=int(input())
 n1=input(" ")
-n1=list(s1.split(' '))
-d={}
+n1=list(n1.split(' '))
+c={}
 for i in n1:
-   if i in d:
-      d[i]+=1
+   if i in c:
+      c[i]+=1
    else:
-      d[i]=1
-for key,value in d.items():
+      c[i]=1
+for key,value in c.items():
   if value==1:
      print(key)
