@@ -1,0 +1,20 @@
+ven=input()
+mathi=len(ven)
+g=0
+while(g<mathi):
+    abc=0
+    kts=0
+    for d in range(len(ven)):
+        kts+=1
+        if(ven[g]==ven[d]):
+            if(kts>abc):
+                abc=kts
+            kts=0
+        if(kts>mathi):
+            break
+    if(kts>abc):
+        abc=kts
+    if(abc<mathi):
+        mathi=abc
+    g+=1
+print(mathi)
